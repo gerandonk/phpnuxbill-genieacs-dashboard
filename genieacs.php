@@ -13,8 +13,8 @@
  *
  **/
 
-register_menu("GenieACS", true, "genieacs_dashboard", 'AFTER_RADIUS', 'glyphicon glyphicon-signal', '', '', ['SuperAdmin', 'Admin']);
-register_menu("GenieACS", false, "genieacs_customer_dashboard", 'AFTER_DASHBOARD', 'glyphicon glyphicon-signal');
+register_menu("GenieACS", true, "genieacs_dashboard", 'AFTER_RADIUS', 'glyphicon glyphicon-signal', 'Free Version', 'yellow', ['SuperAdmin', 'Admin']);
+register_menu("My Device", false, "genieacs_customer_dashboard", 'AFTER_DASHBOARD', 'glyphicon glyphicon-signal');
 
 class GenieACSClient
 {
